@@ -1,0 +1,19 @@
+database:
+  type: "PostgreSQL"
+  version: 13
+  connection:
+    host: "127.0.0.1"
+    port: 5432
+    user: "db_user"
+    password: "db_password"
+  tables:
+    - name: "users"
+      columns:
+        id: "integer"
+        name: "varchar"
+        email: "varchar"
+    - name: "orders"
+      columns:
+        id: "integer"
+        user_id: "integer"
+        total: "float"

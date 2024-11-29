@@ -1,0 +1,12 @@
+system:
+  hostname: "server01"
+  os: "Linux"
+  users:
+    - root
+    - admin
+  services:
+    ssh:
+      enabled: true
+      port: 22
+    web:
+      enabled: false

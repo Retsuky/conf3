@@ -1,0 +1,12 @@
+graphics:
+  resolution:
+    width: 1920
+    height: 1080
+  quality: "high"
+  textures:
+    - "diffuse"
+    - "normal"
+    - "specular"
+  shadows:
+    enabled: true
+    quality: "medium"

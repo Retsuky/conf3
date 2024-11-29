@@ -1,0 +1,11 @@
+key1: 123
+key2: "123"
+key3:
+  - "item1"
+  - "|key1|"
+key4:
+  subkey1: "|key2|"
+  subkey2: 42
+example:
+  key: 42
+  value: "|key|"
